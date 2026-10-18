@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    padding:  40px;
+}
+
+.nav-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(7, 7, 116);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.list-link {
+    text-decoration: none;
+    color: rgb(1, 1, 151);
+}
+
+.nav-btn {
+        width: 150px;
+    height: 40px;
+    border: 1px solid rgb(4, 4, 83);
+    color: rgb(4, 4, 83) ;
+    border-radius: 30px;
+    transition: all 500ms;
+}
+
+.nav-btn:hover{
+        border: 1px solid white;
+    background-color: rgb(4, 4, 83);
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 500px;
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    /* background-color: rgb(3, 3, 65); */
+}
+
+.content-left {
+      display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+}
+
+.left-title{
+    font-size: 30px;
+    color: rgb(7, 7, 131);
+}
+
+.left-theme{
+    font-size: 20px;
+    color:rgb(3, 3, 106) ;
+}
+
+.left-text{
+    font-size: 14px;
+}
+
+.left-bottom {
+    display: flex;
+    gap: 20px;
+}
+
+.left-bottom > button {
+    width: 170px;
+    height: 50px;
+    border: 1px solid rgb(4, 4, 83);
+    color: rgb(4, 4, 83) ;
+    border-radius: 30px;
+    transition: all 500ms;
+}
+
+.left-bottom > button:hover{
+    border: 1px solid white;
+    background-color: rgb(4, 4, 83);
+    color: white;
+}
+
+
+
+.content-right > img {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+
